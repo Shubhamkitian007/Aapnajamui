@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background: red;
+    width: 100%;
+    height: 50.4rem;
+}
+
+.header-box{
+    overflow: hidden;
+    background: rgb(17, 90, 139);
+
+}
+.header-box ul{
+    display: inline-flex;
+    text-align: center;
+    float: right;
+    list-style-type: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header-box img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+}
+.header-box li{
+    padding: 10px 20px;
+}
+
+.social-media ul{
+    list-style-type: none;
+    display: block;
+    position: sticky;
+    left: .5%;
+    top: -50px;
+    width: 5%;
+    height: 10%;
+}
+
